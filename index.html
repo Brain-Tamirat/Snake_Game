@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+  <link rel="icon" href="./Resource/PIC/up.jpg">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <h1 class="title">Snake Game</h1>
+  <canvas class="board" width="350px" height="350px"></canvas>
+  
+  <div class="playing_pad">
+    <div class="up"><img src="./Resource/SVG/circle-up-solid.svg" alt="Up"></div>
+    <div class="down"><img src="./Resource/SVG/circle-down-solid.svg" alt="Down"></div>
+    <div class="left"><img src="./Resource/SVG/circle-left-solid.svg" alt="Left"></div>
+    <div class="right"><img src="./Resource/SVG/circle-right-solid.svg" alt="Right"></div>
+  </div>
+  <div class="pause_play">
+    <div class="play"><img src="./Resource/SVG/play-solid.svg" alt="Play"></div>
+    <div class="pause"><img src="./Resource/SVG/pause-solid.svg" alt="Pause"></div>
+  </div>
+
+  <div class="gameOver">
+    <div class="inner_container">
+    <div class="score"><h2>Score -</h2></div>
+    <h2 class="gameover">Game Over</h2>
+    <img class="replay" onclick="reloader()" src="./Resource/SVG/arrow-rotate-left-solid (1).svg" alt="Replay">
+    </div>
+  </div>
+  <script src="JS/script.js"></script>
+</body>
+</html>
