@@ -79,9 +79,6 @@ body{
   width: 50px;
   position: relative;
 }
-.playing_pad *:hover{
-  transform: scale(110%);
-}
 .down{
   top: 10px;
 }
